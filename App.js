@@ -9,7 +9,9 @@ import { StyleSheet, Text, View, Image } from 'react-native';
       </View>
 
       <View style={styles.midContainer}>
-      <Text>Biography...</Text>
+      <Text>Mi nombre es Eduardo Camacho Díaz, en la actualidad soy alumno de un ciclo formativo en Salesianos La Cuesta. 
+      {"\n\n"}Disfruto mucho estudiando porque me permite mantenerme conectado a la tecnología y a las personas.
+      {"\n\n"}¿Qué más se puede pedir?</Text>
       </View>
 
       <View style={styles.bottomContainer}>
