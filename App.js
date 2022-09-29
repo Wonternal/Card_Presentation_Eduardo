@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
+import QRCode from 'react-native-qrcode-svg'
 
- const App = () => {
+const App = () => {
   return (
     <View style={styles.container}>
       <View style={styles.topContainer}>
@@ -15,7 +16,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
       </View>
 
       <View style={styles.bottomContainer}>
-        <Text>Qr Code</Text>
+      <QRCode value="https://github.com/Wonternal"/>
       </View>
 
     </View>
